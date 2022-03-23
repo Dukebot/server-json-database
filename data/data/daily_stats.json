@@ -1,0 +1,108 @@
+{
+  "pepe": {},
+  "pito_de_los_cojones": {
+    "count": {
+      "uves": null,
+      "smoke": 2,
+      "sex": 0,
+      "masturbation": null,
+      "shit": 1.5,
+      "projects_min": 120,
+      "mental_gym_min": 10,
+      "money_expenses": 32,
+      "walk_min": 75,
+      "exercice_min": 0
+    },
+    "rating": {
+      "emotions": 0.75,
+      "bad_eating": 0.5,
+      "neurosis": 0.25,
+      "sleep": 0.75,
+      "daily_objectives": null
+    },
+    "key_count": {
+      "social_meetings": [
+        "carlos_garrido",
+        "tomas_carlos"
+      ],
+      "places": [
+        "casa_escorxador"
+      ],
+      "actions": [
+        "script_excel_carlos",
+        "fumar",
+        "quedar"
+      ]
+    }
+  },
+  "pito_de_los_cojones2": {
+    "count": {
+      "uves": null,
+      "smoke": 2,
+      "sex": 0,
+      "masturbation": null,
+      "shit": 1.5,
+      "projects_min": 120,
+      "mental_gym_min": 10,
+      "money_expenses": 32,
+      "walk_min": 75,
+      "exercice_min": 0
+    },
+    "rating": {
+      "emotions": 0.75,
+      "bad_eating": 0.5,
+      "neurosis": 0.25,
+      "sleep": 0.75,
+      "daily_objectives": null
+    },
+    "key_count": {
+      "social_meetings": [
+        "carlos_garrido",
+        "tomas_carlos"
+      ],
+      "places": [
+        "casa_escorxador"
+      ],
+      "actions": [
+        "script_excel_carlos",
+        "fumar",
+        "quedar"
+      ]
+    }
+  },
+  "pito_de_los_cojones3": {
+    "count": {
+      "uves": null,
+      "smoke": 2,
+      "sex": 0,
+      "masturbation": null,
+      "shit": 1.5,
+      "projects_min": 120,
+      "mental_gym_min": 10,
+      "money_expenses": 32,
+      "walk_min": 75,
+      "exercice_min": 0
+    },
+    "rating": {
+      "emotions": 0.75,
+      "bad_eating": 0.5,
+      "neurosis": 0.25,
+      "sleep": 0.75,
+      "daily_objectives": null
+    },
+    "key_count": {
+      "social_meetings": [
+        "carlos_garrido",
+        "tomas_carlos"
+      ],
+      "places": [
+        "casa_escorxador"
+      ],
+      "actions": [
+        "script_excel_carlos",
+        "fumar",
+        "quedar"
+      ]
+    }
+  }
+}

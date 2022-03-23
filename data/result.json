@@ -1,0 +1,66 @@
+{
+  "count": {
+    "uve": {
+      "value": 3.07,
+      "count": 132
+    },
+    "smoke": {
+      "value": 1.45,
+      "count": 132
+    },
+    "sex": {
+      "value": 0.07,
+      "count": 132
+    },
+    "masturbation": {
+      "value": 1.1,
+      "count": 120
+    },
+    "shit": {
+      "value": 0.67,
+      "count": 115
+    },
+    "projects_min": {
+      "value": 29.65,
+      "count": 130
+    },
+    "mental_gym_min": {
+      "value": 9.63,
+      "count": 128
+    },
+    "money_expenses": {
+      "value": 18.62,
+      "count": 118
+    },
+    "walk_min": {
+      "value": 52.46,
+      "count": 132
+    },
+    "exercice_min": {
+      "value": 0.73,
+      "count": 104
+    }
+  },
+  "rating": {
+    "emotions": {
+      "value": 0.64,
+      "count": 132
+    },
+    "bad_eating": {
+      "value": 0.43,
+      "count": 132
+    },
+    "neurosis": {
+      "value": 0.25,
+      "count": 132
+    },
+    "sleep": {
+      "value": 0.67,
+      "count": 107
+    },
+    "daily_objectives": {
+      "value": 0.36,
+      "count": 86
+    }
+  }
+}

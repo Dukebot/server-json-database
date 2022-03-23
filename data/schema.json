@@ -1,0 +1,45 @@
+{
+    "monitoring": [
+        "Daily Register"
+    ],
+    "social_life": {
+        "friends": {
+            "tiers": [
+                {
+                    "description": "Seen more than once a week",
+                    "people": ["Carlos", "Caterina"]
+                }, {
+                    "description": "Seen once a week",
+                    "people": ["Tous", "Jacobo", "Irene", "Paciencia", "Pedrito", "Tomeu"]
+                }, {
+                    "description": "Seen once every two weeks",
+                    "people": ["Shury", "Ruth"]
+                }, {
+                    "description": "Seen once a month",
+                    "people": ["Juki", "Muñoz"]
+                }, {
+                    "description": "Seen once every 3 month",
+                    "people": ["Sebas", "Toni Sancho", "Pere Rado", "Andrés"]
+                }, {
+                    "description": "Seen once every 6 months",
+                    "people": ["Juan Dunjó", "Juan Andrés", "Judith"]
+                }, {
+                    "description": "Seen once every year",
+                    "people": ["David Pacheco"]
+                }
+            ]
+        },
+        "groups": {
+            "promocion_uib": [],
+            "hangouts_birres": [],
+            "": []
+        }
+    },
+    "goals_and_objectives": {
+        "long_term": [],
+        "mid_term": [],
+        "short_term": []
+    },
+    "tasks": [],
+    "health": []
+}

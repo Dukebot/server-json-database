@@ -1,0 +1,10 @@
+{
+    "item": {
+        "id": 0,
+        "key": "item",
+        "name": "Item name",
+        "description": "Item description...",
+        "key_type": "key",
+        "fields": []
+    }
+}

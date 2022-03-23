@@ -1,0 +1,165 @@
+{
+    "id": 1,
+    "key": "daily_stats",
+    "name": "Daily Stats",
+    "description": "",
+    "key_type": "key",
+    "fields": [
+        {
+            "key": "count",
+            "name": "Count",
+            "description": "Countable parameters.",
+            "type": "container",
+            "fields": [
+                {
+                    "key": "uves",
+                    "name": "UVEs",
+                    "description": "Número de cervezas consumidas. Los combinados cuentan x2.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0
+                },{
+                    "key": "smoke",
+                    "name": "Smoke",
+                    "description": "Número de cigarrillos fumados.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0
+                },{
+                    "key": "sex",
+                    "name": "Sex",
+                    "description": "Número de veces que se ha practicado el acto sexual.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0
+                },{
+                    "key": "masturbation",
+                    "name": "Masturbation",
+                    "description": "Número de pajas.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0
+                },{
+                    "key": "shit",
+                    "name": "Shit",
+                    "description": "Número de veces que se ha cagado.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0
+                },{
+                    "key": "projects_min",
+                    "name": "Project min",
+                    "description": "Minutos dedicados a proyectos",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0
+                },{
+                    "key": "mental_gym_min",
+                    "name": "Mental gym min",
+                    "description": "Minutos dedicados a gymnasia mental.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0
+                },{
+                    "key": "money_expenses",
+                    "name": "Money expenses",
+                    "description": "Dinero que se ha gastado.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0
+                },{
+                    "key": "walk_min",
+                    "name": "Walk min",
+                    "description": "Minutos que se ha andado.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0
+                },{
+                    "key": "exercice_min",
+                    "name": "Exercice min",
+                    "description": "Minutos que se ha hecho ejercicio.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0
+                }
+            ]
+        },{
+            "key": "rating",
+            "name": "Rating",
+            "description": "Rateable parameters.",
+            "type": "container",
+            "fields": [
+                {
+                    "key": "emotions",
+                    "name": "Emotions",
+                    "description": "Valoración del estado de ánimo.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0,
+                    "max": 1
+                },{
+                    "key": "bad_eating",
+                    "name": "Bad eating",
+                    "description": "Valoración de lo mal que se ha comido.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0,
+                    "max": 1
+                },{
+                    "key": "neurosis",
+                    "name": "Neurosis",
+                    "description": "Intensidad de las neuras y frecuencia.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0,
+                    "max": 1
+                },{
+                    "key": "sleep",
+                    "name": "Sleep",
+                    "description": "Valoración de lo bien que se ha dormido.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0,
+                    "max": 1
+                },{
+                    "key": "daily_objectives",
+                    "name": "Daily objectives",
+                    "description": "Valoración del cumplimiento de los objetivos diarios.",
+                    "type": "numeric",
+                    "default_value": null,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },{
+            "key": "key_count",
+            "name": "Key count",
+            "description": "Key count parameters",
+            "type": "container",
+            "fields": [
+                {
+                    "key": "social_meetings",
+                    "name": "Social meetings",
+                    "description": "Con quien se ha quedado.",
+                    "type": "array",
+                    "default_value": null,
+                    "min": 0
+                },{
+                    "key": "places",
+                    "name": "Places",
+                    "description": "Dónde he estado.",
+                    "type": "array",
+                    "default_value": null,
+                    "min": 0
+                },{
+                    "key": "actions",
+                    "name": "Actions",
+                    "description": "Que he hecho.",
+                    "type": "array",
+                    "default_value": null,
+                    "min": 0
+                }
+            ]
+        }
+    ]
+}

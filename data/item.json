@@ -1,0 +1,248 @@
+{
+  "_id": 1,
+  "_key": "daily_stats",
+  "_name": "Daily Stats",
+  "_description": "",
+  "_key_type": "key",
+  "_fields": [
+    {
+      "_key": "count",
+      "_name": "Count",
+      "_description": "Countable parameters.",
+      "_is_nullable": true,
+      "_type": "container",
+      "_fields": [
+        {
+          "_key": "uves",
+          "_name": "UVEs",
+          "_description": "Número de cervezas consumidas. Los combinados cuentan x2.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": null,
+          "_min": 0,
+          "_fields": null
+        },
+        {
+          "_key": "smoke",
+          "_name": "Smoke",
+          "_description": "Número de cigarrillos fumados.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": 2,
+          "_min": 0,
+          "_fields": null
+        },
+        {
+          "_key": "sex",
+          "_name": "Sex",
+          "_description": "Número de veces que se ha practicado el acto sexual.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": 0,
+          "_min": 0,
+          "_fields": null
+        },
+        {
+          "_key": "masturbation",
+          "_name": "Masturbation",
+          "_description": "Número de pajas.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": null,
+          "_min": 0,
+          "_fields": null
+        },
+        {
+          "_key": "shit",
+          "_name": "Shit",
+          "_description": "Número de veces que se ha cagado.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": 1.5,
+          "_min": 0,
+          "_fields": null
+        },
+        {
+          "_key": "projects_min",
+          "_name": "Project min",
+          "_description": "Minutos dedicados a proyectos",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": 120,
+          "_min": 0,
+          "_fields": null
+        },
+        {
+          "_key": "mental_gym_min",
+          "_name": "Mental gym min",
+          "_description": "Minutos dedicados a gymnasia mental.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": 10,
+          "_min": 0,
+          "_fields": null
+        },
+        {
+          "_key": "money_expenses",
+          "_name": "Money expenses",
+          "_description": "Dinero que se ha gastado.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": 32,
+          "_min": 0,
+          "_fields": null
+        },
+        {
+          "_key": "walk_min",
+          "_name": "Walk min",
+          "_description": "Minutos que se ha andado.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": 75,
+          "_min": 0,
+          "_fields": null
+        },
+        {
+          "_key": "exercice_min",
+          "_name": "Exercice min",
+          "_description": "Minutos que se ha hecho ejercicio.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": 0,
+          "_min": 0,
+          "_fields": null
+        }
+      ]
+    },
+    {
+      "_key": "rating",
+      "_name": "Rating",
+      "_description": "Rateable parameters.",
+      "_is_nullable": true,
+      "_type": "container",
+      "_fields": [
+        {
+          "_key": "emotions",
+          "_name": "Emotions",
+          "_description": "Valoración del estado de ánimo.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": 0.75,
+          "_min": 0,
+          "_max": 1,
+          "_fields": null
+        },
+        {
+          "_key": "bad_eating",
+          "_name": "Bad eating",
+          "_description": "Valoración de lo mal que se ha comido.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": 0.5,
+          "_min": 0,
+          "_max": 1,
+          "_fields": null
+        },
+        {
+          "_key": "neurosis",
+          "_name": "Neurosis",
+          "_description": "Intensidad de las neuras y frecuencia.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": 0.25,
+          "_min": 0,
+          "_max": 1,
+          "_fields": null
+        },
+        {
+          "_key": "sleep",
+          "_name": "Sleep",
+          "_description": "Valoración de lo bien que se ha dormido.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": 0.75,
+          "_min": 0,
+          "_max": 1,
+          "_fields": null
+        },
+        {
+          "_key": "daily_objectives",
+          "_name": "Daily objectives",
+          "_description": "Valoración del cumplimiento de los objetivos diarios.",
+          "_is_nullable": true,
+          "_type": "numeric",
+          "_default_value": null,
+          "_value": null,
+          "_min": 0,
+          "_max": 1,
+          "_fields": null
+        }
+      ]
+    },
+    {
+      "_key": "key_count",
+      "_name": "Key count",
+      "_description": "Key count parameters",
+      "_is_nullable": true,
+      "_type": "container",
+      "_fields": [
+        {
+          "_key": "social_meetings",
+          "_name": "Social meetings",
+          "_description": "Con quien se ha quedado.",
+          "_is_nullable": true,
+          "_type": "array",
+          "_default_value": null,
+          "_value": [
+            "carlos_garrido",
+            "tomas_carlos"
+          ],
+          "_min": 0,
+          "_fields": null
+        },
+        {
+          "_key": "places",
+          "_name": "Places",
+          "_description": "Dónde he estado.",
+          "_is_nullable": true,
+          "_type": "array",
+          "_default_value": null,
+          "_value": [
+            "casa_escorxador"
+          ],
+          "_min": 0,
+          "_fields": null
+        },
+        {
+          "_key": "actions",
+          "_name": "Actions",
+          "_description": "Que he hecho.",
+          "_is_nullable": true,
+          "_type": "array",
+          "_default_value": null,
+          "_value": [
+            "script_excel_carlos",
+            "fumar",
+            "quedar"
+          ],
+          "_min": 0,
+          "_fields": null
+        }
+      ]
+    }
+  ]
+}
